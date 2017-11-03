@@ -1,7 +1,7 @@
 # Create an Azure resource group
 resource "azurerm_resource_group" "terraform" {
   name     = "TerraformDemo-RG"
-  location = "${var.location}"
+  location = "${var.location}" # Default Azure location as defined in variables.tf
 }
 
 # Create a virtual network in the Terraform resource group
@@ -9,7 +9,7 @@ resource "azurerm_virtual_network" "terraform" {
   name                = "Terraform-VNet"
   address_space       = ["172.16.0.0/16"]
   resource_group_name = "${azurerm_resource_group.terraform.name}"
-  location = "${var.location}"
+  location = "${var.location}" 
 }
 
 # Create a subnet in Terraform VNet
