@@ -1,6 +1,6 @@
 {
-    "client_id": "ef352de5-b262-4103-b946-b5e196e06585",
-    "client_secret": "7570b96c-862e-413f-bf87-6349b59238ca",
-    "tenant_id": "72f988bf-86f1-41af-91ab-2d7cd011db47",
-    "subscription_id": "e73c1dbe-2574-4f38-9e8f-c813757b1786"
+    "client_id": "Your Azure SPN id",
+    "client_secret": "Your Azure SPN password",
+    "tenant_id": "Your Azure tenant_id",
+    "subscription_id": "Your Azure subscription_id"
 }
